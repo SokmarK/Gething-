@@ -1,0 +1,12 @@
+.barra-principal{
+background: rgb(0,0,0);
+background: linear-gradient(254deg, rgba(0,0,0,1) 59%, rgba(75,160,186,1) 80%, rgba(0,212,255,1) 89%);
+}
+
+.img-1{
+    width: 14%;
+}
+
+.lupa .user .menu{
+    color: #ffff    ;
+}
