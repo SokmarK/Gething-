@@ -1,0 +1,36 @@
+.barra-principal{
+    background: rgb(0,0,0);
+    background: linear-gradient(254deg, rgba(0,0,0,1) 59%, rgb(75, 160, 186) 80%, rgba(0,212,255,1) 89%);
+    }
+    
+    .img-1{
+        width: 14%;
+    }
+    
+    .icono-menu {
+        color: #C52B2B;
+    }
+    
+    .icono-user{
+        color: #4BA0BA;
+    }   
+
+    .tamaño{
+        font-size: 45px;
+    }
+
+    .linea-busqueda{
+        border-bottom: solid #ffffff 1px !important;
+        width: 500px;
+        border: none;
+        text-align: center;
+    }
+
+    .sec{
+        font-size: 5.5rem;
+
+    }
+
+    .sec p{
+        padding:0% 5%;
+    }
