@@ -19,12 +19,12 @@ background: linear-gradient(254deg, rgba(0,0,0,1) 59%, rgb(75, 160, 186) 80%, rg
 }
 
 .tamaño{
-    font-size: 45px;
+    font-size: 30px;
 }
 
 .linea-busqueda{
     border-bottom: solid #ffffff 1px !important;
-    width: 500px;
+    width: 300px;
     border: none;
     text-align: center;
 }
@@ -32,7 +32,7 @@ background: linear-gradient(254deg, rgba(0,0,0,1) 59%, rgb(75, 160, 186) 80%, rg
 
 .titulo{
     text-align: center;
-    font-size: 80px;
+    font-size: 50px;
     margin-bottom: 2% ;
     font-family: "Joti One", serif;
 }
