@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -64,9 +64,9 @@
     <section class="row">
 
 
-        <aside class="bg-white col-3">
+        <aside class="col-2">
 
-            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+            <button class="btn btn-primary w-100 rounded-0" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Filtros</button>
 
             <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
@@ -77,68 +77,94 @@
                 </div>
                 <div class="offcanvas-body">
 
-                    
+                    <table class="mt-2 pt-5">
+                        <tr>
+                            <td style="width: 50%;">
+                                <p class="fw-bold mb-5 tamaño-letra-offcanvas">
+                                    Los mas vendidos:
+                                </p>
+                            </td>
+                            <td>
+                                <div class="dropdown mb-5 ms-5">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Click aquí
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Dispositivos</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
 
-                    <div class="d-flex">
-                        <p class="fw-bold fs-5 me-2">
-                            Los mas vendidos :
-                        </p>
+                                        <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
 
-                        <div>
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown button
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                                        <li><a class="dropdown-item" href="#">Reseñas</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 50%;">
+                                <p class="fw-bold mb-5 mt-5 tamaño-letra-offcanvas">
+                                    Los mas populares:
+                                </p>
+                            </td>
+                            <td>
+                                <div class="dropdown mb-5 mt-5 ms-5">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Click aquí
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Dispositivos</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
 
-                    <div class="d-flex">
-                        <p class="fw-bold fs-5 me-1">
-                            Mejores calificados :
-                        </p>
+                                        <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
 
-                        <div>
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown button
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                                        <li><a class="dropdown-item" href="#">Reseñas</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 50%;">
+                                <p class="fw-bold mt-5 tamaño-letra-offcanvas">
+                                    Lista de precios:
+                                </p>
+                            </td>
+                            <td>
+                                <div class="dropdown mt-5 ms-5">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Click aquí
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">1'000.000 $ - 5'000.000 $</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+
+                                        <li><a class="dropdown-item" href="#">500.000 $ - 999.000 $</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+
+                                        <li><a class="dropdown-item" href="#">0 $ - 499.000 $</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
 
 
-                    <div class="d-flex">
-                        <p class="fw-bold fs-5 me-2">
-                            Lista de precios :
-                        </p>
-
-                        <div>
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown button
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
 
                 </div>
             </div>
@@ -147,7 +173,219 @@
 
         </aside>
 
+        <div class="col-10">
+
+
+            <div class="row bg-white h-100">
+                <div class="col-4">
+                    <div id="list-example" class="list-group mt-5">
+                        <a class="list-group-item list-group-item-action" href="#list-item-1">
+                            <div class="d-flex justify-content-center flex-column align-items-center">
+                                <img src="https://via.placeholder.com/50x50" alt="">
+                                <div class="fw-bold">Celulares</div>
+                            </div>
+                        </a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-2">Computadores</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-3">Electrodomésticos</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-4">Accesorios</a>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <style>
+                        .div-scroll{
+                            height: calc(100vh - 76px);
+                            overflow: auto;
+                            overflow-x: hidden;
+                        }
+                    </style>
+                    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true"
+                        class="scrollspy-example div-scroll" tabindex="0">
+                        <h4 id="list-item-1">Mira nuestras marcas asociadas</h4>
+
+                        <div class="row row-cols-1 row-cols-md-2 g-4 me-3 mb-3">
+                            <div class="col">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Apple</h5>
+                                        <p class="card-text">El iPhone 15 Pro es el primer iPhone diseñado con titanio de calidad aeroespacial, la misma aleación que se usa en las naves espaciales enviadas a Marte.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Samsung</h5>
+                                        <p class="card-text">Bienvenido a la era de la AI móvil. Con el Galaxy S24 Ultra 5G en tus manos, puedes dar rienda suelta a nuevos niveles de creatividad, productividad y posibilidades.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Xiaomi</h5>
+                                        <p class="card-text">El Redmi Note 13 Pro+ 5G incluye tecnología innovadora. La edición especial Mystic Silver, reeditada para el Xiaomi Fan Festival 2024, celebra nuestros valores compartidos</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Huawei</h5>
+                                        <p class="card-text">La pantalla LTPO Quad-Curve de 6.67 pulgadas te ofrece una sujeción suave y una visión envolvente con su frecuencia de refresco adaptable de 1-120 Hz. La pantalla HUAWEI X-TrueTM
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h4 id="list-item-2">¡Computadores de maravilla!</h4>
+
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Asus</h5>
+                                        <p class="card-text">El elegante ASUS Zenbook es compacto, ultradelgado y ligero, y cuenta con la mejor tecnología para portátiles, pantallas NanoEdge, artesanía de precisión, rendimiento sin concesiones e innovación.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Lenovo</h5>
+                                        <p class="card-text">En Lenovo Legion, buscamos incansablemente avances tecnológicos relacionados con los juegos. Dicho esto, no importa cuáles sean tus objetivos de juego.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">HP</h5>
+                                        <p class="card-text">
+                                            Permanece conectado con lo que más te importa gracias a una batería de larga duración y a un fino diseño de bisel con microborde. Diseñada para mantener la productividad.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Acer</h5>
+                                        <p class="card-text">Descubre la ventaja de IA de RTX. Las GPU GeForce RTX™ y NVIDIA RTX™, diseñadas para la era de la IA, cuentan con núcleos Tensor Core de IA especializados que ofrecen un rendimiento de vanguardia.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h4 id="list-item-3">Nuestros esenciales para el hogar</h4>
+
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Neveras</h5>
+                                        <p class="card-text">¿Se te descongela tu comida?, ¿Mucha energia gastada?, ¿Poco espacio?. Tranquilo, te tenemos la solucion a increibles precios y en todos sus modelos y presentaciones.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Televisores</h5>
+                                        <p class="card-text">Nuestro apartado especial para los fanáticos al fútbol, para los noveleros y peliculeros. O para esos gamers que quieran tener una experiencia inolvidable con la gran pantalla y colores que ofrece.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Hornos</h5>
+                                        <p class="card-text">¿Buscas realizar tus recetas favoritas, o simplemente hacer unas papas fritas para cualquier ocasion? Llegaste al lugar correcto, los mejores a los mejores precios, ¿Que esperas?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Lavadoras</h5>
+                                        <p class="card-text">Sabemos que lavar a mano no es facil y tan práctico, es por eso que te traemos las novedades de las marcas que nos ofrecen sus mejores productos para esta esencial necesidad
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h4 id="list-item-4">Accesorios</h4>
+
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Fundas para celular</h5>
+                                        <p class="card-text">¡Personaliza tu celular como quieras, expresate! 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Teclados y mouse's</h5>
+                                        <p class="card-text">Para gamers, oficinistas o simplemente casuales. Tú eliges.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Camaras</h5>
+                                        <p class="card-text">Captura tus momentos con las mejores resoluciones.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cargadores</h5>
+                                        <p class="card-text">Encontraras todos los modelos, echa un vistazo.   
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
     </section>
+
+
 
 
 
