@@ -14,9 +14,10 @@
     }
 
     .img-1{
-        width: 15%;
+        width: 25%;
     }
     
+
     .icono-menu {
         color: #C52B2B;
         border: none;
@@ -38,24 +39,10 @@
     }
 
     .sec-2{
-        font-size: 4rem;
+        font-size: 50px;
         font-family: "Joti One", serif;
     }
-    
 
-.img{
-background-color: #ffffff;
-height:300px;
-width: 400px;
-margin: 15% 0% 0% 0%;
-}
-
-img:hover {
-        opacity: 45%;
-        transition: 2s;
-}
-
-section{
-    gap: 9rem;
-    text-align: center;
+.texto-carta{
+    height: 200px;
 }
