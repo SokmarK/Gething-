@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+
+
+
+.barra-principal{
+    background: rgb(0,0,0);
+    background: linear-gradient(254deg, rgba(0,0,0,1) 59%, rgb(75, 160, 186) 80%, rgba(0,212,255,1) 89%);
+    }
+    
+
+    nav{
+        position: sticky; top: 0;
+        z-index: 10;
+    }
+
+    .img-1{
+        width: 25%;
+    }
+    
+
+    .icono-menu {
+        color: #C52B2B;
+        border: none;
+    }
+    
+    .icono-user{
+        color: #4BA0BA;
+    }   
+
+    .tamaño{
+        font-size: 30px;
+    }
+
+    .linea-busqueda{
+        border-bottom: solid #ffffff 1px !important;
+        width: 300px;
+        border: none;
+        text-align: center;
+    }
+
+    .sec-2{
+        font-size: 50px;
+        font-family: "Joti One", serif;
+    }
+
+.texto-carta{
+    height: 200px;
+}
