@@ -23,4 +23,57 @@ background: linear-gradient(180deg, rgba(62,0,0,1) 0%, rgba(103,0,0,1) 51%);
    color: white;
 }
 
-.
+.margin-top-texto{
+   margin-top: 200px;
+}
+
+.borde-input{
+   border-radius: 30px;
+   border-color: rgb(252, 8, 8);
+   bo
+}
+
+::placeholder{
+   color: black;
+   font-weight:100;
+   bor
+}
+
+.stilo-hipervinculo{
+   text-decoration: none;
+}
+
+
+/* ---------------------------------------------------*/
+
+
+.descripciondepelicula  {
+   position: relative;
+   display: inline-block;
+ }
+
+ .imagenperlicula {
+   display: block;
+   width: 180px;
+   height: 250px;
+   transition: filter 0.5s;
+ }
+
+ .textodescripcion {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-size: 20px;
+   opacity: 0;
+   transition: opacity 0.5s;
+ }
+
+ .descripciondepelicula:hover .imagenperlicula {
+   filter: grayscale(100%);
+ }
+
+ .descripciondepelicula:hover .textodescripcion {
+   opacity: 1;
+ }
