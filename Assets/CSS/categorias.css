@@ -5,7 +5,6 @@ body{
 }
 
 .imagendeprueba{
-    background-image: url(https://img.freepik.com/fotos-premium/moderno-fondo-telefono-inteligente-dorado-conectores-mesa-oscura-maqueta-primer-plano_1027059-10792.jpg?w=996);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,6 +34,12 @@ body{
 .tamaño-letra-offcanvas{
     font-size: 19px;
 }
+
+.tamaño-lista{
+    height: 70px;
+}
+
+
 
 .img-celulares{
     
