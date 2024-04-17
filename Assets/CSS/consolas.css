@@ -8,10 +8,12 @@
     }
     
 
-    nav{
-        position: sticky; top: 0;
-        z-index: 10;
-    }
+body{
+    background-image: url(../IMG/fondo.jpeg);
+    background-attachment: fixed;
+
+}
+
 
     .img-1{
         width: 25%;
@@ -19,7 +21,7 @@
     
 
     .icono-menu {
-        color: #C52B2B;
+        color: #c52b2b;
         border: none;
     }
     
@@ -41,7 +43,12 @@
     .sec-2{
         font-size: 50px;
         font-family: "Joti One", serif;
+        border: #c52b2b  1px solid;
     }
+
+.color-palabra{
+    color: #4BA0BA ;
+}
 
 .texto-carta{
     height: 200px;

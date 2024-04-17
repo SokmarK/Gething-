@@ -6,12 +6,20 @@ background: rgb(0,0,0);
 background: linear-gradient(254deg, rgba(0,0,0,1) 59%, rgb(75, 160, 186) 80%, rgba(0,212,255,1) 89%);
 }
 
+
+body{
+    background-image: url(//Assets/Im/fondo.jpeg);
+
+}
+
 .img-1{
-    width: 14%;
+    width: 25%;
 }
 
 .icono-menu {
     color: #C52B2B;
+    border: none;
+    
 }
 
 .icono-user{

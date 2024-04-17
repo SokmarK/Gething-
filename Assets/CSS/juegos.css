@@ -2,24 +2,27 @@
 
 
 
-
-nav{
-    position: sticky; top: 0;
-    z-index: 10;
-}
-
 .barra-principal{
     background: rgb(0,0,0);
     background: linear-gradient(254deg, rgba(0,0,0,1) 59%, rgb(75, 160, 186) 80%, rgba(0,212,255,1) 89%);
     }
     
+
+body{
+    background-image: url(../IMG/fondo.jpeg);
+    background-attachment: fixed;
+
+}
+
+
     .img-1{
-        width: 14%;
+        width: 25%;
     }
     
+
     .icono-menu {
-        color: #C52B2B;
-        border:none;
+        color: #c52b2b;
+        border: none;
     }
     
     .icono-user{
@@ -38,21 +41,15 @@ nav{
     }
 
     .sec-2{
-        font-size: 4rem;
+        font-size: 50px;
         font-family: "Joti One", serif;
+        border: #c52b2b  1px solid;
     }
-    
 
-.img{
-background-color: #ffffff;
-height: 300px;
-width: 400px;
-border-radius: 50px;
-margin: 15% 0% 0% 0%;
-
-
+.color-palabra{
+    color: #4BA0BA ;
 }
 
 .texto-carta{
-    font-size: 200px;
+    height: 200px;
 }
