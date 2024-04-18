@@ -1,2 +1,15 @@
+.img-fondo-index{
+    background-image: url(../IMG/ImagenFondoIndex.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.fondo-logo-neupho{
+    border-radius: 50px;
+background: #483347;
+box-shadow:  20px 20px 60px #3d2b3c,
+             -20px -20px 60px #533b52;
+margin-top: 10%;
+margin-bottom: 10%;
+}
 
