@@ -43,7 +43,7 @@
                     <nav class="navbar">
                         <a class="navbar-brand"></a>
                         <form class="d-flex">
-                            <input class="form-control mr-sm-2 caquirris" type="search" placeholder="Search" aria-label="Search">
+                            <input class="form-control mr-sm-2 buscador" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-outline-success my-2 my-sm-0 border-0  d-flex" type="submit">
                                 <div class=""><i class="fa-solid fa-magnifying-glass ico1"></i></div>
                             </button>
@@ -54,7 +54,37 @@
             
         <div class="d-flex align-content-end">
                 <div class="m-3 mt-4">
-                    <i class="fa-solid fa-user ico1"></i>
+                    <button class="btn m-0 p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-user ico1"></i></button>
+                        <div class="offcanvas offcanvas-end panel-login" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Login</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+
+
+
+
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                            <br>
+                            <button type="button" class="btn btn-dark">Iniciar seción</button>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    
                 </div>
             
                 <div class="m-3 mt-4">
@@ -101,19 +131,49 @@
                 <div class="textodescripcion">Lorem ipsum dolor sit.</div>
             </div>
 
-            <h2 class="mt-4 mb-2">Drama</h2>
-            <img src="../Assets/IMG/Imagenespeliculas/Peliculas/Drama/Fabrica de lagrimas.jpg" alt="">
-            <img src="../Assets/IMG/Imagenespeliculas/Peliculas/Drama/La delgada linea roja.jpg" alt="">
-            <img src="../Assets/IMG/Imagenespeliculas/Peliculas/Drama/parasyte.jpg" alt="">
-            <img src="../Assets/IMG/Imagenespeliculas/Peliculas/Drama/Ripley.jpg" alt="">
-            <img src="../Assets/IMG/Imagenespeliculas/Peliculas/Drama/Sugar.jpg" alt="">
+            <h2 class="imagenperlicula drama-height">Drama</h2>
+            <div class="descripciondepelicula ">
+                <img src="../Assets/IMG/Imagenespeliculas/Peliculas/Drama/Fabrica de lagrimas.jpg" alt=""  class="imagenperlicula">
+                <div class="textodescripcion">Lorem ipsum dolor sit.</div>
+            </div>
+            <div class="descripciondepelicula ">
+                <img src="../Assets/IMG/Imagenespeliculas/Peliculas/Drama/La delgada linea roja.jpg" alt="" class="imagenperlicula">
+            <div class="textodescripcion">Lorem ipsum dolor sit.</div>
+            </div>
+            <div class="descripciondepelicula ">
+                <img src="../Assets/IMG/Imagenespeliculas/Peliculas/Drama/parasyte.jpg" alt="" class="imagenperlicula">
+                <div class="textodescripcion">Lorem ipsum dolor sit.</div>
+            </div>
+            <div class="descripciondepelicula ">
+                <img src="../Assets/IMG/Imagenespeliculas/Peliculas/Drama/Ripley.jpg" alt="" class="imagenperlicula">
+                <div class="textodescripcion">Lorem ipsum dolor sit.</div>
+            </div>
+            <div class="descripciondepelicula ">
+                <img src="../Assets/IMG/Imagenespeliculas/Peliculas/Drama/Sugar.jpg" alt="" class="imagenperlicula">
+                <div class="textodescripcion">Lorem ipsum dolor sit.</div>
+            </div>
 
-            <h2 class="mt-4 mb-2">Comedia</h2>
-            <img src="../Assets/IMG/Imagenespeliculas/Peliculas/Comedia/Como si Fuera la primera vez.jpg" alt="">
-            <img src="../Assets/IMG/Imagenespeliculas/Peliculas/Comedia/Dunki.jpg" alt="">
-            <img src="../Assets/IMG/Imagenespeliculas/Peliculas/Comedia/Hitch.jpg" alt="">
-            <img src="../Assets/IMG/Imagenespeliculas/Peliculas/Comedia/Musica.jpg" alt="">
-            <img src="../Assets/IMG/Imagenespeliculas/Peliculas/Comedia/Snack Shack.jpg" alt="">
+            <h2 class="">Comedia</h2>
+            <div class="descripciondepelicula ">
+                <img src="../Assets/IMG/Imagenespeliculas/Peliculas/Comedia/Como si Fuera la primera vez.jpg" alt="" class="imagenperlicula">
+                <div class="textodescripcion">Lorem ipsum dolor sit.</div>
+            </div>
+            <div class="descripciondepelicula ">
+                <img src="../Assets/IMG/Imagenespeliculas/Peliculas/Comedia/Dunki.jpg" alt="" class="imagenperlicula">
+                <div class="textodescripcion">Lorem ipsum dolor sit.</div>
+            </div>
+            <div class="descripciondepelicula ">
+                <img src="../Assets/IMG/Imagenespeliculas/Peliculas/Comedia/Hitch.jpg" alt="" class="imagenperlicula">
+                <div class="textodescripcion">Lorem ipsum dolor sit.</div>
+            </div>
+            <div class="descripciondepelicula ">
+                <img src="../Assets/IMG/Imagenespeliculas/Peliculas/Comedia/Musica.jpg" alt="" class="imagenperlicula">
+                <div class="textodescripcion">Lorem ipsum dolor sit.</div>
+            </div>
+            <div class="descripciondepelicula ">
+                <img src="../Assets/IMG/Imagenespeliculas/Peliculas/Comedia/Snack Shack.jpg" alt="" class="imagenperlicula">
+                <div class="textodescripcion">Lorem ipsum dolor sit.</div>
+            </div>
         </div>
         
         <div class="destacadas col-3 border-start">
