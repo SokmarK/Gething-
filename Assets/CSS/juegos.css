@@ -8,6 +8,7 @@ body{
 .barra-principal{
     background: rgb(0,0,0);
     background: linear-gradient(254deg, rgba(0,0,0,1) 59%, rgb(75, 160, 186) 80%, rgba(0,212,255,1) 89%);
+    width: 100%;
     }
     
 
@@ -51,8 +52,8 @@ body{
 
 .color-palabra{
     color: #4BA0BA ;
-    font-size: 50px;
 }
+
 
 .texto-carta{
     height: 200px;
@@ -73,4 +74,8 @@ body{
 .botonfooter{
     text-decoration: none;
     
+}
+
+footer{
+    width: 100%;
 }
