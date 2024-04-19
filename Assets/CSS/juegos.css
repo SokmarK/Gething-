@@ -42,6 +42,7 @@ body{
         width: 300px;
         border: none;
         text-align: center;
+        outline: none;
     }
 
     .sec-2{
@@ -71,11 +72,9 @@ body{
     border: #ffffff solid 1px;
 }
 
-.botonfooter{
-    text-decoration: none;
-    
-}
+
 
 footer{
     width: 100%;
+    border: #0000;
 }

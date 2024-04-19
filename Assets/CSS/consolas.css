@@ -42,6 +42,7 @@ body{
         width: 300px;
         border: none;
         text-align: center;
+        outline: none;
     }
 
     .sec-2{
