@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
 
 
+body{
+    overflow-x: hidden;
+}
 
 .barra-principal{
     background: rgb(0,0,0);
     background: linear-gradient(254deg, rgba(0,0,0,1) 59%, rgb(75, 160, 186) 80%, rgba(0,212,255,1) 89%);
+    width: 100%;
     }
     
 
@@ -43,13 +47,35 @@ body{
     .sec-2{
         font-size: 50px;
         font-family: "Joti One", serif;
-        border: #c52b2b  1px solid;
+        border: 1px solid;
     }
 
 .color-palabra{
     color: #4BA0BA ;
 }
 
+
 .texto-carta{
     height: 200px;
+}
+
+.subtitulos{
+
+    width: 440px;   
+    border: #ffffff solid 1px;
+    height: 150px;
+
+}
+
+.subtitulos2{
+    border: #ffffff solid 1px;
+}
+
+.botonfooter{
+    text-decoration: none;
+    
+}
+
+footer{
+    width: 100%;
 }
