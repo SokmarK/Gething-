@@ -1,0 +1,83 @@
+.lol {
+   background: rgb(87, 9, 15);
+   background: -moz-linear-gradient(1deg, rgba(87, 9, 15, 1) 32%, rgba(255, 55, 55, 1) 100%, rgba(255, 0, 0, 1) 100%);
+   background: -webkit-linear-gradient(1deg, rgba(87, 9, 15, 1) 32%, rgba(255, 55, 55, 1) 100%, rgba(255, 0, 0, 1) 100%);
+   background: linear-gradient(1deg, rgba(87, 9, 15, 1) 32%, rgba(255, 55, 55, 1) 100%, rgba(255, 0, 0, 1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#57090f", endColorstr="#ff0000", GradientType=1);
+}
+
+.bb {
+
+   background: rgb(62, 0, 0);
+   background: linear-gradient(180deg, rgba(62, 0, 0, 1) 0%, rgba(103, 0, 0, 1) 51%);
+
+}
+
+.buscador {
+   border-radius: 50px;
+}
+
+.ico1 {
+   color: white;
+}
+
+.margin-top-texto {
+   margin-top: 200px;
+}
+
+.borde-input {
+   border-radius: 30px;
+   border-color: rgb(252, 8, 8);
+}
+
+::placeholder {
+   color: black;
+   font-weight: 100;
+}
+
+.stilo-hipervinculo {
+   text-decoration: none;
+}
+
+
+/* ---------------------------------------------------*/
+
+
+.descripciondepelicula {
+   position: relative;
+   display: inline-block;
+}
+
+.imagenperlicula {
+   display: block;
+   width: 180px;
+   height: 250px;
+   transition: filter 0.5s;
+}
+
+.textodescripcion {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-size: 20px;
+   opacity: 0;
+   transition: opacity 0.5s;
+}
+
+.descripciondepelicula:hover .imagenperlicula {
+   filter: grayscale(100%);
+}
+
+.descripciondepelicula:hover .textodescripcion {
+   opacity: 1;
+}
+
+.drama-height{
+   height: 40px;
+}
+
+.panel-login {
+   background-color: #52575c;
+}
