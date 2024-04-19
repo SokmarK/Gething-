@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .img-index{
     background-image: url(../IMG/ImagenFondoIndex.png);
 }
@@ -35,3 +39,7 @@ box-shadow:  20px 20px 60px #3d2b3c,
     height: 50px;
 }
 
+
+.size-form-canva{
+    height: 60% !important;
+}
