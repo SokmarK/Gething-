@@ -1,0 +1,21 @@
+header {
+    background-color:  rgb(0,255,243);
+    background: linear-gradient(90deg, rgba(0,255,243,1) 0%, rgba(255,255,255,1) 100%);;
+}
+
+.linea{
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    margin-bottom: 40px;
+}
+
+.lineadetiempo {
+    background-color: rgb(217,217,217);
+    background: linear-gradient(180deg, rgba(217,217,217,1) 47%, rgba(255,254,254,1) 100%);
+}
+
+.compras {
+    font-weight: bold;
+    font-size: large;
+}
