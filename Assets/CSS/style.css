@@ -1,7 +1,27 @@
-.img-fondo-index{
+.img-index{
     background-image: url(../IMG/ImagenFondoIndex.png);
+}
+
+.img-pelis{
+    background-image: url(../IMG/ImagenFondoIndexPeliculas.png);
+}
+.img-juegos{
+    background-image: url(../IMG/ImagenFondoIndexJuegos.png);
+}
+
+.img-otros{
+    background-image: url(../IMG/ImagenFondoIndexOtros.png);
+}
+
+.margin-y{
+    margin-top: 10%;
+margin-bottom: 10%;
+}
+
+.img-default{
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .fondo-logo-neupho{
@@ -9,10 +29,9 @@
 background: #483347;
 box-shadow:  20px 20px 60px #3d2b3c,
              -20px -20px 60px #533b52;
-margin-top: 10%;
-margin-bottom: 10%;
 }
 
-.width-div-1{
-    width: 50px;
+.height-div-1{
+    height: 50px;
 }
+
